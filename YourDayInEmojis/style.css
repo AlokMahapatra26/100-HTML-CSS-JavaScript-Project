@@ -17,7 +17,11 @@ body{
 }
 
 .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: rgb(61, 85, 167);
+    width: 800px;
     padding: 50px;
     border-radius: 7px;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
@@ -27,32 +31,60 @@ div{
     display: flex;
     align-items: center;
     justify-content: start;
+    flex-direction:row;
+}
+
+@media only screen and (max-width: 600px) {
+    div {
+      flex-direction: column;
+    }
+  }
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 
+.box p{
+    color: rgb(201, 200, 200);
+}
 .btn{
-    padding: 20px 30px;
-    font-size: 2rem;
+    /* padding: 20px 30px; */
+    font-size: 1rem;
     margin: 20px;
     border: none;
     border-radius: 10px;
     background-color: rgb(119, 75, 163);
     color: #fff;
-    filter: grayscale();
     transition: filter .2s ease-in-out;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
-    padding: 50px;
+    padding: 20px;
     font-size: 5rem;
+    display: inline-block;
 }
 
-.btn:hover{
-    filter: grayscale(0);
+
+.btn-master{
+    padding: 10px;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(85, 85, 79);
+    color:white;
+    border-radius: 10px;
+    background-color: rebeccapurple;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+    
+
 }
 
 p{
-    color: rgb(190, 173, 173);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    padding: 10px;
-    border-radius: 10px;
+    font-size: small;
+    font-weight:10;
 }
