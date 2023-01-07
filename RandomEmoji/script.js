@@ -1,7 +1,7 @@
  
  //element Variables
  const btn = document.getElementById('btn');
- const name = document.getElementById('emoji-name');
+ const emojiName = document.getElementById('emoji-name');
 
 
 const emojis = [];
@@ -26,7 +26,7 @@ const emojis = [];
    
     const random = Math.floor(Math.random()*1792);
     btn.innerText = emojis[random].emojiName;
-    name.innerText = emojis[random].emojiCode;
+    emojiName.innerText = emojis[random].emojiCode;
     
  })
  

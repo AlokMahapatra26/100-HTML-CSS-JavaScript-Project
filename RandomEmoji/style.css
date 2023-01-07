@@ -20,6 +20,7 @@ body{
     background-color: rgb(61, 85, 167);
     padding: 50px;
     border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
 div{
@@ -34,13 +35,13 @@ div{
     font-size: 2rem;
     margin: 20px;
     border: none;
-    border-radius: 100%;
+    border-radius: 10px;
     background-color: rgb(119, 75, 163);
     color: #fff;
     filter: grayscale();
     transition: filter .2s ease-in-out;
     cursor: pointer;
-    box-shadow: 0 0 2px 2px yellow;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     padding: 50px;
     font-size: 5rem;
 }
@@ -51,4 +52,7 @@ div{
 
 p{
     color: rgb(190, 173, 173);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding: 10px;
+    border-radius: 10px;
 }
