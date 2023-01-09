@@ -1,1 +1,1 @@
-# 100-HTML-CSS-JavaSctipy-Project
+# 100-HTML-CSS-JavaScript-Project
