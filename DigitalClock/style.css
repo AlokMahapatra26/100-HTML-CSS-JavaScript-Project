@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+}
+
+.main-container{
+    height: 100vh;
+    background-color:#242833;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-container h2{
+    color: rgb(231, 218, 218);
+}
+
+
+
+.clock{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock div{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding:20px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius:10px ;
+    margin-left: 10px;
+    color: rgb(112, 240, 8);
+    font-size: 1.5em;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.0);
+    
+}
+
+
+.clock div:hover{
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+}

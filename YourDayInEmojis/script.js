@@ -27,15 +27,11 @@ const emojis = [];
       
     
      })
-      }
-
-  
-    
-    
-    }
-    
+      }   
+    }  
  }
 
+ 
  getEmoji();
  userName.innerText = `Hi ${user_name} Click on below button to know your fortune of tommorow , today if its morning`;
 
