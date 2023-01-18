@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;min-height: 100vh;
+    background-color: cornflowerblue;
+}
+
+.main-container{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+
+.stats-container{
+    background-color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 90px 5px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px rgba(0,0,0,.5);
+}
+
+
+.counter{
+    font-size: 3rem;
+}
+
+
+.fa-android {
+    color: rgb(64, 253, 6);
+}
+
+.fa-cloud {
+    color: skyblue;
+}
+
+.fa-briefcase {
+    color: red;
+}
