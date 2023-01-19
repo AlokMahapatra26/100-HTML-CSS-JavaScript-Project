@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+}
+
+.main-container{
+    background-color: #242833;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.game-container{
+    background-color: #242833;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+.computer{
+    /* background-color: rgb(255, 255, 255); */
+    
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.game-name{
+    padding: 20px;
+    border: 1px dashed rgb(255, 0, 0);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+    box-shadow: 5px 5px 3px  rgba(17, 0, 255, 0.5);
+    font-family: 'Neonderthaw', cursive;
+    text-shadow: 0px 0px 10px blue,0px 0px 20px blue, 0 0 40px blue,0 0 60px blue,0px 0px 80px blue,0px 0px 120px blue,0px 0px 14px blue,  0px 0px 180px blue  , 0px 0px 220px blue  ;
+    
+}
+
+
+
+
+.computer-name{
+    margin-right: 10px;
+    padding: 20px;
+    background-color: #242833;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    
+    
+}
+
+
+
+.computer-choice{
+    padding: 20px;
+    background-color: #242833;
+    border: 1px solid #fff;
+    color: white;
+    width: 100%;
+    
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.computer-score{
+    padding: 20px;
+    background-color: #242833;
+    border: 1px solid #fff;
+    color: white;
+    width: 100%;
+    
+    border-radius: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+.user-name{
+    margin-right: 10px;
+    padding: 20px;
+    background-color: #242833;
+    border-radius: 10px;
+    border:1px solid white;
+    
+}
+
+.user-choice{
+    padding: 20px;
+    background-color: #242833;
+    border: 1px solid #fff;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-score{
+    padding: 20px;
+    background-color: #242833;
+    border: 1px solid #fff;
+    color: white;
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    
+
+}
+
+.user{
+    /* background-color: rgb(255, 255, 255); */
+    /* padding: 20px; */
+    border-radius: 10px;
+}
+
+.user button{
+    padding: 10px 20px;
+    /* width: 200px; */
+    border: none;
+    background-color: #242833;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    
+}
+
+.user button:hover{
+    transform: scale(1.1);
+    transition: transform .2s ease;
+    box-shadow: 5px 5px 3px  rgba(17, 0, 255, 0.5);
+}
+
+
+
+
+.winning-box{
+    background-color: #242833;
+    border: 1px solid #fff;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow:  0px 0px 10px blue;
+}
+
+i{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+/* @media only screen and (max-width: 600px) {
+    .btn{
+        width: 500px;
+    }
+  } */
+
+
+ 
+ 
