@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-container{
+    height: 100vh;
+    background-color: #242833;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    color: white;
+    text-align: center;
+    width: 300px;
+    position: relative;
+}
+
+.counter{
+    font-size: 40px;
+}
+
+.loading-bar-back{
+    position: absolute;
+    height: 8px;
+    background-color: aliceblue;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+.loading-bar-front{
+    position: absolute;
+    height: 8px;
+    background-color: rgb(255, 0, 0);
+    width: 0%;
+    border: none;
+    border-radius: 10px;
+}
