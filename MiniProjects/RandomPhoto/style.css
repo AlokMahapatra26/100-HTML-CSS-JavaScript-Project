@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#btn{
+
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+img{
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+.img-container{
+   height: 400px;
+   width: 400px;
+}
