@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+    
+}
+
+.main-container{
+    min-height: 100vh;
+    background-color: rgb(77, 106, 185);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+   
+    
+    color : rgb(39, 37, 37);
+    /* padding: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 7px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+    background-color:#242833;
+    margin: 20px 20px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    width: 500px;
+    overflow: hidden;
+}
+
+h2{
+    margin: 10px;
+}
+
+.score_box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* border-bottom: 1px solid rgb(83, 79, 79); */
+    padding: 10px;
+    align-items: center;
+    box-shadow: 0 0 3px rgb(0, 0, 0);
+    overflow: hidden;
+   
+    
+}
+
+@media only screen and (max-width: 600px) {
+  .score_box{
+    flex-direction: column;
+  }
+}
+
+.score_box div{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 7px;
+    width: 100%;
+    margin: 10px;
+    border: 1px solid rgb(122, 122, 122);
+    /* box-shadow: 0px 0px 2px rgb(206, 205, 205) ; */
+     background-color:#242833;
+    
+}
+
+#options{
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.game_box{
+    padding: 20px;
+   display: flex; 
+   /* justify-content:space-around; */
+   width: 100%;
+    
+    /* /* align-items: center; */
+    justify-content: center; }
+
+
+h2{
+    display: inline;
+    color: white;
+}
+
+input{
+    /* padding: 10px; */
+    width: 50px;
+    /* border-radius: 7px; */
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 1.5rem;
+    background-color: #242833;
+    color: white;
+}
+
+
+
+#btn{
+  
+  
+    padding: 10px;
+    /* border: 1px solid rgb(80,80,80); */
+  cursor: pointer;
+  background-color:#242833;
+}
+
+#btn:hover{
+    border: 1px solid red;
+    transition: 0.2s ease;
+}
+
