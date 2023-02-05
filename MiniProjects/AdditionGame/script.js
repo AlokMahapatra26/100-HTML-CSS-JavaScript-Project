@@ -58,7 +58,7 @@ function game(){
     rand();
    }else{
     answer.value = "";
-    score_num -= 250;
+    score_num -= 300;
     score.innerText = score_num;
    }
 

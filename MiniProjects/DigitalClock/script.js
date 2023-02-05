@@ -10,17 +10,17 @@ function showTime(){
     const hour_data = new Date().getHours();
     const minute_data = new Date().getMinutes();
     const second_data = new Date().getSeconds();
-    const ampm = "AM";
+    // const ampm = "AM";
     
 
     hour.innerText = hour_data;
     minute.innerText = minute_data;
     second.innerText = second_data;
 
-    if(hour > 12){
-        h = h -12;
-        ampm = "PM"
+    if(hour_data > 12){
+        ampm = "PM";
     }
+   
 
     AMPM.innerText = ampm;
 

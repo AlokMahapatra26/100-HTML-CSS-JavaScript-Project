@@ -25,7 +25,7 @@ userScore.innerText = user_Score ;
 let user = "none"
 
 
-
+console.log(typeof null + typeof []);
 
 //Event Listener for our four buttons
 rock.addEventListener("click" , ()=>{
