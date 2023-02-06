@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-container{
+    background-color: rgb(208, 197, 218);
+    min-height: 100vh;
+    background: rgb(255,255,255);
+background: linear-gradient(360deg, rgba(255,255,255,1) 0%, rgba(218,218,218,1) 56%, rgba(9,9,121,1) 56%);
+align-items: center;
+position: relative;
+
+
+}
+
+h1{
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.convertor{
+ background-color: rgb(255, 255, 255);
+ width: 80%;
+ padding: 20px;
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+ position: absolute;
+ top: 30%;
+ left: 10%;
+ 
+ border-radius: 7px;
+ align-items: center;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.10);
+  margin: auto auto;
+}
+
+@media only screen and (min-width: 1000px) {
+  .convertor {
+    max-width: 40%;
+    left: 30%;
+  }
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+input , select , label{
+    margin: 10px;
+    padding: 10px;
+}
+
+input , select {
+    
+    border-radius: 7px;
+    outline: none;
+    background-color: white;
+    border: none;
+    border: 2px solid rgba(9,9,121,.2);
+  
+}
+
+select option:focus{
+   
+    border-radius: 7px;
+    outline: none;
+    background-color: white;
+    border: none;
+  
+}
+
+.exchange{
+    margin: 20px;
+    border: 1px dotted black;
+    border-radius: 7px;
+    padding: 20px;
+}
