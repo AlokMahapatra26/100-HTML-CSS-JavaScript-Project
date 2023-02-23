@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-container{
+    background-color: rgb(167, 190, 233);
+    min-height: 100vh;
+    /* display: flex;
+    /* align-items: center; */
+    /* justify-content: center;  */
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 55%, rgba(102,107,252,1) 55%);
+position: relative;
+}
+
+.todo{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 10px;
+    border-radius: px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    
+}
+
+.upper input , button{
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    
+    
+    
+}
+
+@media only screen and (max-width: 450px) {
+    .todo{
+        width: 80%;
+        
+    }
+
+    input{
+        width: 80%;
+        
+    }
+  }
+
+.upper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(218, 218, 218);
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 2.5px;
+    margin: 2px;
+    /* background-color: rgb(183, 205, 233); */
+    border-bottom: 1px solid rgb(233, 220, 220);
+    font-size:1.2rem ;
+    cursor: pointer;
+    border-radius: 5px;
+}

@@ -33,6 +33,18 @@ span{
     100%{
         transform: translate(-50% ,-3000%);
         opacity: 0;
-        filter: hue-rotate(-2000deg);
+        filter: hue-rotate(-1000deg);
     }
+}
+
+img{
+    margin: 50px;
+    border-radius: 500px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+p{
+    color: white;
 }
